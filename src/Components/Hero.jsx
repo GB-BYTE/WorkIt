@@ -16,14 +16,14 @@ const Hero = () => {
                
             </div>
             
-           <div className="relative xxl:hidden">
+           <div className="relative xxl:hidden overflow-hidden">
                 <img className="absolute top-[80px] left-[-80px] w-[270.29px] h-[215.1px]" src={bg1} alt="background-pattern" />
                 <img className="absolute top-[200px] right-[-20px] w-[142px] h-[113px]" src={bg2} alt="background-pattern" />
             </div>
                
             <div className="mt-[56px] max-w-[800px] mx-auto">
                 <div className="flex justify-center text-center relative px- [20px] pb-[40px]">
-                    <h2 className="text-white md:text-7xl text-[40px] " >Data tailored to <br></br> your needs.</h2>
+                    <h2 className="text-white md:text-7xl text-[40px] font-fraunces " >Data tailored to <br></br> your needs.</h2>
                     <span className="border-b-4 border-[#44FFA1] lg:w-[243px] lg:left-[240px] sm:w-[184px] sm:left-[260px] w-[150px] absolute md:top-[70px] top-[50px] "></span>
                 </div>
 

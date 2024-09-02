@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Components/Hero";
 import Content from "./Components/Content";
 import Cta from "./Components/Cta";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Hero/>
         <Content/>
         <Cta></Cta>
+        <Footer></Footer>
     </div>
   );
 }
