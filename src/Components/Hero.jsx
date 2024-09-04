@@ -6,19 +6,20 @@ import phone from '../assets/images/image-hero.webp';
 
 const Hero = () => {
     return ( 
-        <div className="bg-[#24053E] pt-[56px] w-[100%] h-[805px]">
+        <div className="bg-[#24053E] pt-[56px] w-[100%] h-[805px] relative">
            
             <div className="max-w-[1700px] mx-auto"> 
                 <div  className="flex justify-between px-6 pb-[32px]">
                     <p className="text-white text-xl xs:text-[12px] "><b>Work</b>it</p>
                     <p className="text-white border-b-4 border-[#44FFA1] sm:text-lg text-[12px]">Apply for access</p>
                 </div>
-               
+
             </div>
             
-           <div className="relative xxl:hidden overflow-hidden">
-                <img className="absolute top-[80px] left-[-80px] w-[270.29px] h-[215.1px]" src={bg1} alt="background-pattern" />
-                <img className="absolute top-[200px] right-[-20px] w-[142px] h-[113px]" src={bg2} alt="background-pattern" />
+            
+           <div className="xxl:hidden ssm:hidden">
+                <img className="absolute top-[180px]  left-[-30px] lg:left-[-60px] w-[270.29px] h-[215.1px]" src={bg1} alt="background-pattern" />
+                <img className="absolute top-[350px] right-[30px] lg:right-[20px] w-[142px] h-[113px]" src={bg2} alt="background-pattern" />
             </div>
                
             <div className="mt-[56px] max-w-[800px] mx-auto">
