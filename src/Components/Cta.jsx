@@ -3,7 +3,7 @@ import founder from '../assets/images/image-founder.webp';
 import bg3 from '../assets/images/bg-pattern-3.svg';
 const Cta = () => {
     return ( 
-        <div className=" w-[100%] bg-slate-100  ">
+        <div className=" relative w-[100%] bg-slate-100 z-[-1] ">
             <div className="max-w-[1700px] mx-auto md:pt-[112px] pt-[80px]">
                 <div className="md:grid md:grid-cols-3 flex flex-col items-center md:items-start">
                     <div className="col-span-1 relative md:left-[80px] 1024-1300:left-[50px]   ">
